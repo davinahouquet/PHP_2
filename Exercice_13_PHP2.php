@@ -12,6 +12,22 @@ suivants :</p>
 
 <?php
 
+Class Voiture{
+    private $_marque;
+    private $_modele;
+    private $_nbPortes;
+    private $_vitesseActuelle = 0;
 
+    public function __construct($marque, $modele, $_nbPortes, $_vitesseActuelle){
+        $this ->_marque = $marque;
+        $this ->_modele = $modele;
+        $this ->_nbPortes = $_nbPortes;
+        $this ->_vitesseActuelle = $_vitesseActuelle;
+    }
+
+    public function getMarque(){
+        
+    }
+}
 
 ?>
